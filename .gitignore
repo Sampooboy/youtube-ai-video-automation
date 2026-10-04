@@ -52,3 +52,49 @@ m4/lt~obsolete.m4
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local project output
+output/*
+!output/.gitkeep
+projects/*
+!projects/.gitkeep
+assets/*
+!assets/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Secrets and private credentials (never commit these)
+*.key
+*.pem
+*.p12
+*.crt
+*.env
+.env*
+*token*
+*cookie*
+*session*
+
+# Keep project files tracked
+!input/topic.txt
+!prompts/flow_prompt_template.md
+!scripts/
+!README.md
+!/.github/
